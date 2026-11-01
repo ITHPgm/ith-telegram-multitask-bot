@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Telegram MultiTask Bot
 
 A modular Telegram bot that brings practical utilities into one chat. It uses the official Telegram Bot API, supports local long polling and Vercel webhooks, and includes an optional paid Pro tier using recurring Telegram Stars subscriptions.
@@ -318,3 +319,7 @@ This repository is a foundation, not a fully audited SaaS billing platform. It d
 ## Licence
 
 MIT. See `LICENSE`.
+=======
+# ith-telegram-multitask-bot
+Multitask telegram bot
+>>>>>>> 55a1eae329d2bc786c51893369c4bec3cb1d8889

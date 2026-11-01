@@ -1,0 +1,21 @@
+{
+  "name": "telegram-multitask-bot",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A modular Telegram multi-tool bot with optional AI features and Telegram Stars subscriptions.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "set:webhook": "node scripts/set-webhook.js",
+    "delete:webhook": "node scripts/delete-webhook.js",
+    "set:commands": "node scripts/set-commands.js",
+    "check": "node --check server.js && node --check src/bot.js && node --check src/config.js && node --check src/store.js && node --check src/telegram.js && node --check src/features/tools.js && node --check src/features/ai.js && node --check api/webhook.js && node --check api/health.js && node --check scripts/set-webhook.js && node --check scripts/delete-webhook.js && node --check scripts/set-commands.js"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.35.3",
+    "dotenv": "^16.6.1",
+    "expr-eval": "^2.0.2"
+  }
+}
